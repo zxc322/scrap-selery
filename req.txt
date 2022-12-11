@@ -1,0 +1,8 @@
+httpx
+parsel
+celery[redis]
+pymongo
+python-dotenv
+fastapi
+uvicorn
+pydantic
