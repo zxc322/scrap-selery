@@ -1,16 +1,12 @@
-import os
 import smtplib
 from typing import Dict
 from email.mime.text import MIMEText
 
-MAIL_SENDER = os.environ.get('MAIL_SENDER')
-MAIL_RECIEVER = os.environ.get('MAIL_RECIEVER')
-MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
+from src.config import MAIL_SENDER, MAIL_PASSWORD, MAIL_RECIEVER
 
 
 class MailSender:
         
-
     def send_email(self, car: Dict, page: str) -> str:
         try:
             server = smtplib.SMTP('smtp.gmail.com', 587)

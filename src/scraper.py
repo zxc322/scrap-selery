@@ -3,9 +3,6 @@ from datetime import datetime
 import httpx
 from parsel import Selector
 
-from src.schemas import Car
-
-
 
 class Scraper:
 

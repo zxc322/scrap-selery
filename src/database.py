@@ -1,14 +1,9 @@
-import os
 from typing import List
 from pymongo import MongoClient
-from dotenv import load_dotenv
 
 from src.schemas import Cars
+from src.config import MONGO_USER, MONGO_PASSWORD, MONGO_PORT
 
-load_dotenv()
-MONGO_USER = os.environ.get('MONGO_USER')
-MONGO_PASSWORD = os.environ.get('MONGO_PASSWORD')
-MONGO_PORT = os.environ.get('MONGO_PORT')
 
 
 class Database:
