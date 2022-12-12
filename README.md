@@ -1,6 +1,6 @@
 # scrap-selery
 
-### Create .env file ( example vars yoy can find in `.sample`)
+### Create .env file ( example vars you can find in `.sample`)
 
 ### run app from docker
 
