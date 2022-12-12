@@ -1,5 +1,7 @@
 # scrap-selery
 
+### Create .env file ( example vars yoy can find in `.sample`)
+
 ### run app from docker
 
     docker-compose up --build 
